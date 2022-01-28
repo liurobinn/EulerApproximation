@@ -27,4 +27,4 @@ as the result, ```h= 4```
 dydx = ;     //put your function right here 
 ```
 From the previous question, ```∂p/∂x=0.5*x*(1−x)```
-## Please don't forget to put in ```*``` when doing multiplication. Or the function will not execute!!!
+## Please don't forget to put in ```*``` when doing multiplication. Or the program will not execute!!!
