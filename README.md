@@ -1,5 +1,5 @@
 # About
-Welcome to my approximation software using Euler's Method!
+Welcome to my approximation software using Euler's Method! This program approximates the initial value of the function using ```Euler's Method```
 
 # How to use EulerApproximation
 ## 1. Change the value of these variables before executing the program.
