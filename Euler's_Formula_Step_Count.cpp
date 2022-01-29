@@ -25,7 +25,7 @@ int i=1;
 
 int main()
 {
-        while (i < h) {
+        while (i <= h) {
                 dx= (x1 - x0)/h;
 //==============================================================================
                 dydx= y/x;     //put your function right here               ===
