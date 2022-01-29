@@ -57,4 +57,4 @@ According the previous question, ```∂y/∂x=0.5*x*(1−x)```
 # Note
 Please don't forget to put in ```*``` when doing multiplication, ```^```when putting in exponents, ```/```when doing division. Or the program will not execute!!!
 # Attention
-EulerApproximation is **not** certified for use in safety-critical applications. It should **not** be used in any life risking circumstances.
+```EulerApproximation``` is **not** certified for use in safety-critical applications. It should **not** be used in any life risking circumstances.
