@@ -21,7 +21,7 @@ float dydx;
 float dx;
 float dy;
 
-int i;
+int i=1;
 
 int main()
 {
