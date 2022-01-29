@@ -61,7 +61,7 @@ int main()
                 x+= dx;
                 y+= dy;
 
-                cout << "loop" << i << "\t";
+                cout << "loop " << i << "\t";
                 cout << "dx= " << dx << "\t";
                 cout << "x= " << x << "\t";
                 cout << "dy= " << dy << "\t";
