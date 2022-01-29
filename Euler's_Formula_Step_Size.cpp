@@ -17,12 +17,12 @@ float x1= 2;           //end value of x; change this line!!!!                ===
 //                                                                           ===
 float dx= 0.25;        //put in step size; change this line!!!!              ===
 //==============================================================================
-int h= (x1 - x0)/dx;            // number of steps; change this line!!!!
+int h= (x1 - x0)/dx;
 float dydx;
 
 float dy;
 
-int i;
+int i=1;
 
 int main()
 {
@@ -32,9 +32,9 @@ int main()
 //==============================================================================
                 dy= dx * dydx;
 
-                x= x + dx;
-                y= y + dy;
-
+                x+= dx;
+                y+= dy;
+                cout << "loop" << i << "\t";
                 cout << "dx= " << dx << "\t";
                 cout << "x= " << x << "\t";
                 cout << "dy= " << dy << "\t";
