@@ -34,27 +34,27 @@ using namespace std;
 //=====================================
 
 //==============================================================================
-float y= 1;            //inital value of y; change this line!!!!             ===
-//                                                                           ===
-float x= 1;            //inital value of x; change this line!!!!             ===
-float x0= 1;           //inital value of x; change this line!!!!             ===
-//                                                                           ===
-float x1= 2;           //end value of x; change this line!!!!                ===
-//                                                                           ===
-int h= 1000;            // number of steps; change this line!!!!             ===
+float y= 1;            //inital value of y; change this line!!!!
+//
+float x= 1;            //inital value of x; change this line!!!!
+float x0= 1;           //inital value of x; change this line!!!!
+//
+float x1= 2;           //end value of x; change this line!!!!
+//
+int h= 1000;            // number of steps; change this line!!!!
 //==============================================================================
 float dydx;
 float dx;
 float dy;
 
-int i=1;
+int i= 1;
 
 int main()
 {
         while (i <= h) {
                 dx= (x1 - x0)/h;
 //==============================================================================
-                dydx= y/x;     //put your function right here               ===
+                dydx= y/x;     //put your function right here               
 //==============================================================================
                 dy= dx * dydx;
 
